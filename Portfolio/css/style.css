@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --cor-primaria1:#8C162C;
+    --cor-primaria2:#167358;
+    --cor-primaria3:#BF9E39;
+    --cor-primaria4:#D9B589;
+    --cor-primaria5:#0D0D0D;
+    --preto: black;
+    --brando: white;
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    background-color: #8C162C;
+    margin: 0 100px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.content-1{
+    width: 100%;
+}
+
+.content-1 img{
+    width: 100%;
+}
+
+.content-1 h1{
+    color: #D9B589;
+    font-size: 4rem;
+}
+
+.content-1 p{
+    font-size: 1.2rem;
+}
+
+.content-1 button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    background: var(--cor-primaria3);
+    transition: 500ms ease-in-out;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.content-1 button:hover{
+    transform: translateY(5px);
+    background: var(--cor-primaria2);
+    cursor: pointer;
+    color: white;
+}
+
+.box-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    background: #BF9E39;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid var(--cor-primaria4);
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.card h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px 0;
+
+}
+
+.card p{
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.card i{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.card:nth-child(1):hoover{
+    transform: translateY(-5px);
+    color: #5e4800;
+    border: 2px solid var(--cor-primaria4);
+    box-shadow: 3px 3px 10px rgba(124, 75, 0, 0.8);
+}
+
+.card:nth-child(2):hoover{
+    transform: translateY(-5px);
+    color: #167358;
+    border: 2px solid var(--cor-primaria4);
+    box-shadow: 3px 3px 10px rgba(2, 58, 0, 0.8);
+}
+
+.card:nth-child(3):hoover{
+    transform: translateY(-5px);
+    color: #0300b4;
+    border: 2px solid var(--cor-primaria4);
+    box-shadow: 3px 3px 10px rgba(0, 19, 124, 0.8);
+}
+
+.card:nth-child(3):hoover{
+    transform: translateY(-5px);
+    color: #167358;
+    border: 2px solid var(--cor-primaria4);
+    box-shadow: 3px 3px 10px rgba(124, 75, 0, 0.8);
+}
